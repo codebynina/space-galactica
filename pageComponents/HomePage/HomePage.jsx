@@ -14,7 +14,7 @@ const HeroSection = () => {
           experience!
         </p>
       </div>
-      <Link to="/about_us" className={styles.exploreButton}>
+      <Link href="/about_us" className={styles.exploreButton}>
         EXPLORE
       </Link>
     </main>

@@ -1,9 +1,9 @@
 "use client";
 
 import { useWishlist } from "../../Contexts/WishlistContext";
-import { AddWishlistItem } from "../../pages/DestinationPage/AddWishlistItem";
-import PlanetCard from "../../pages/DestinationPage/PlanetCard";
-import styles from "../../pages/DestinationPage/DestinationPage.module.css";
+import { AddWishlistItem } from "../../pageComponents/DestinationPage/AddWishlistItem";
+import PlanetCard from "../../pageComponents/DestinationPage/PlanetCard";
+import styles from "../../pageComponents/DestinationPage/DestinationPage.module.css";
 
 const planets = [
   {

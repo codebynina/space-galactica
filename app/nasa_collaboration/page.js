@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { RoverPhoto } from "../../pages/NasaCollaborationPage/RoverPhoto";
-import { SpaceNameGenerator } from "../../pages/NasaCollaborationPage/SpaceNameGenerator";
-import styles from "../../pages/NasaCollaborationPage/NasaCollaborationPage.module.css";
+import { RoverPhoto } from "../../pageComponents/NasaCollaborationPage/RoverPhoto";
+import { SpaceNameGenerator } from "../../pageComponents/NasaCollaborationPage/SpaceNameGenerator";
+import styles from "../../pageComponents/NasaCollaborationPage/NasaCollaborationPage.module.css";
 
 const API_KEY = process.env.NEXT_PUBLIC_NASA_API_KEY;
 

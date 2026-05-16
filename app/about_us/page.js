@@ -1,9 +1,7 @@
-import styles from "../../pages/AboutUsPage/AboutUsPage.module.css";
-
-import OurValues from "../../pages/AboutUsPage/OurValues";
-import OurCrew from "../../pages/AboutUsPage/OurCrew";
-import OurPartners from "../../pages/AboutUsPage/OurPartners";
-
+import OurValues from "../../pageComponents/AboutUsPage/OurValues";
+import OurCrew from "../../pageComponents/AboutUsPage/OurCrew";
+import OurPartners from "../../pageComponents/AboutUsPage/OurPartners";
+import styles from "../../pageComponents/AboutUsPage/AboutUsPage.module.css";
 export default function Crew() {
   return (
     <div className={styles.app}>
